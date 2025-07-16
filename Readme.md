@@ -2,6 +2,9 @@ Virtual Env
 conda create -p venv python==3.13
 
 
+conda deactivate
+
+
 // pip freeze
 appnope==0.1.4
 asttokens==3.0.0
