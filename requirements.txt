@@ -8,3 +8,6 @@ langchain-groq
 
 langchain-core
 langchain-community
+langchain-Pinecone
+langchain-huggingface
+weavite
