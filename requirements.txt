@@ -1,13 +1,60 @@
-
-Pydantic
+# ── Core ──────────────────────────────────────────────
+pydantic
+pydantic-settings
 python-dotenv
+
+# ── LangChain ecosystem ──────────────────────────────
 langchain
-langchain-openai
-
-langchain-groq
-
 langchain-core
 langchain-community
-langchain-Pinecone
+langchain-openai
+langchain-groq
+langchain-google-genai
 langchain-huggingface
-weavite
+langchain-pinecone
+langchain-mongodb
+langchain-text-splitters
+
+# ── LangGraph ─────────────────────────────────────────
+langgraph
+langgraph-checkpoint-mongodb
+
+# ── Google ADK ────────────────────────────────────────
+google-adk
+
+# ── LLM providers ────────────────────────────────────
+openai
+
+# ── Vector databases ─────────────────────────────────
+faiss-cpu
+chromadb
+weaviate-client
+
+# ── Database ──────────────────────────────────────────
+pymongo
+
+# ── Web & API ─────────────────────────────────────────
+fastapi[standard]
+uvicorn
+requests
+
+# ── Document processing ──────────────────────────────
+pypdf
+
+# ── ML & embeddings ──────────────────────────────────
+scikit-learn
+sentence-transformers
+datasketch
+
+# ── Tools & utilities ────────────────────────────────
+wikipedia
+youtube-search-python
+click
+loguru
+opik
+
+# ── Development ───────────────────────────────────────
+ipykernel
+jupyter
+pytest
+ruff
